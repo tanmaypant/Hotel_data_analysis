@@ -2,7 +2,7 @@
 Unlocking insights from booking patterns, customer behavior & hotel revenue data
 <p align="center"> <img src="https://img.shields.io/badge/Data%20Science-EDA-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/> </p>
 
---
+---
 
 # 📘 Project Overview
 
@@ -19,8 +19,10 @@ This project performs an end-to-end data analysis on hotel booking data to uncov
 ✔ Business recommendations for hotel operations
 
 Using Python-based exploratory data analysis (EDA), clustering, and performance metrics, this project gives hotels actionable intelligence to improve revenue, reduce cancellations, and optimize distribution strategies.
+ 
+---
 
-📁 Dataset Overview
+# 📁 Dataset Overview
 
 The dataset contains 36 columns and hundreds of thousands of bookings, covering:
 
