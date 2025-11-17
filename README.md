@@ -1,66 +1,75 @@
-# 🏨 Hotel Management Data Analysis
-Unlocking insights from booking patterns, customer behavior & hotel revenue data
-<p align="center"> <img src="https://img.shields.io/badge/Data%20Science-EDA-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/> </p>
+# Hotel Data Analysis
+
+A data-driven study of booking patterns, customer behavior, cancellation risks, and hotel revenue performance.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Science-EDA-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/>
+</p>
+---
+
+# Project Overview
+
+This project provides a complete analysis of hotel booking data with the goal of uncovering:
+
+Cancellation patterns and risk factors
+
+ADR (Average Daily Rate) and revenue insights
+
+Customer segmentation
+
+Market, country, and distribution channel behavior
+
+Data-backed business recommendations
+
+
+Through exploratory data analysis (EDA), clustering techniques, and statistical profiling, this study offers actionable insights to help hotels improve revenue, reduce cancellations, and optimize operational strategy.
 
 ---
 
-# 📘 Project Overview
+# Tech Stack
 
-This project performs an end-to-end data analysis on hotel booking data to uncover:
+-Python (Pandas, NumPy) — Data preparation and manipulation
 
-✔ Cancellation patterns & risk drivers
+-Matplotlib, Seaborn — Visualization and trend analysis
 
-✔ ADR & revenue performance
+-Scikit-Learn — Machine learning & clustering
 
-✔ Customer segmentation
+-Jupyter Notebook — Interactive development environment
 
-✔ Market, country & channel insights
-
-✔ Business recommendations for hotel operations
-
-Using Python-based exploratory data analysis (EDA), clustering, and performance metrics, this project gives hotels actionable intelligence to improve revenue, reduce cancellations, and optimize distribution strategies.
- 
----
-
-# 🛠️ Tech Stack
-
-- **Python (Pandas, NumPy)** — Data manipulation & preprocessing  
-- **Matplotlib, Seaborn** — Visualization  
-- **Scikit-Learn** — Machine learning & clustering  
-- **Jupyter Notebook** — Interactive analysis  
-- **GitHub** — Version control & documentation
+-GitHub — Version control and documentation
 
 ---
 
-# 📁 Dataset Overview
+# Dataset Overview
 
-The dataset contains 36 columns and hundreds of thousands of bookings, covering:
+The dataset includes 36+ attributes covering:
 
-🏨 Hotel type (City / Resort)
+Hotel type (City / Resort)
 
-📅 Arrival dates (year, month, week number)
+Arrival date details
 
-👨‍👩‍👧 Guests (adults, children, babies)
+Guest composition
 
-💰 ADR (Average Daily Rate)
+ADR (Average Daily Rate)
 
-🚗 Special requests & parking
+Special requests and parking
 
-📦 Market segment & distribution channel
+Market segment & distribution channel
 
-🌍 Country of origin
+Country of origin
 
-🔁 Previous cancellations
+Cancellation indicators
 
-📄 Reservation status
+Booking lead time
 
-💳 Deposit & payment behavior
+Deposit status
 
----
 
-From this dataset, several new features were engineered:
+Additional engineered features include:
 
-total_nights = weekday + weekend nights
+total_nights = weekday_nights + weekend_nights
 
 revenue = adr × total_nights
 
@@ -68,20 +77,23 @@ family_size = adults + children + babies
 
 customer_group (Solo / Couple / Family)
 
-value_segment (Low / Mid / High ADR tiers)
+value_segment (Low / Mid / High ADR)
 
-🔢 Key Findings (Summary of Real Calculations)
-📉 1. High Cancellation Rate
+---
+
+# Key Findings
+
+1. Cancellation Behavior
 
 Overall cancellation rate: 37.04%
 
-City Hotel cancellations: 41.7%
+City Hotel cancellation rate: 41.7%
 
-Resort Hotel cancellations: 27.8%
+Resort Hotel cancellation rate: 27.8%
+City hotels experience significantly higher demand volatility.
 
-📌 City hotels face much higher volatility in demand.
 
-💵 2. ADR Insights
+2. ADR (Average Daily Rate) Insights
 
 Overall ADR: ₹101.83
 
@@ -89,172 +101,145 @@ City Hotel ADR: ₹105.30
 
 Resort Hotel ADR: ₹94.95
 
-Difference: City hotels charge ₹10.35 more per night
+City Hotels earn roughly ₹10.35 more per night on average.
 
-📌 City hotels earn more per night but also see more cancellations.
 
-❌ 3. Higher ADR → Higher Cancellation Risk
+3. Higher ADR → Higher Cancellation Risk
+
 Booking Type	ADR
+
 Canceled	₹104.96
 Not Canceled	₹99.99
 
-📌 Canceled bookings have ₹4.97 higher ADR on average.
 
-🌍 4. Top Countries by Booking Volume
-Country	Full Name	Bookings
+Canceled bookings are, on average, ₹4.97 higher in ADR.
+
+4. Country-Level Insights (Top 5 by volume)
+
+Country Code	Country	Bookings
+
 PRT	Portugal	48,590
 GBR	United Kingdom	12,129
 FRA	France	10,415
 ESP	Spain	8,568
 DEU	Germany	7,287
 
-📌 Portugal dominates due to local tourism & OTA exposure.
 
-📊 5. Distribution Channels & Agents
+Portugal represents the largest segment of total bookings.
 
-Most bookings come through Online Travel Agencies (OTA / TA/TO)
+5. Distribution Channels & Agents
 
-Direct bookings account for fewer reservations but generally higher reliability
+Majority of reservations come via online travel agencies (OTAs).
 
-Certain agents dominate both booking volume & revenue
+Direct bookings are fewer but more reliable.
 
-📌 Channel and agent management has high financial impact.
+Certain agents contribute a disproportionate share of bookings and revenue.
 
-🧩 6. Customer Segmentation (K-Means + Rules-Based)
 
-The project identifies 4 clear customer clusters:
+6. Customer Segmentation (K-Means + Rules)
 
-Cluster	Description
+Four clear clusters emerged:
+
+Cluster	Segment Description
+
 0	Budget last-minute travelers
-1	High-value planners (high ADR + long lead times)
-2	Family/group travelers
+1	High-value planners (high ADR + long lead time)
+2	Families / group travelers
 3	Vacation travelers (long stays, mid-high ADR)
-
-📌 Segmentation helps in targeted marketing and personalized offers.
-
-🧪 Analysis Modules Included
-✔ 1. Cancellation Analysis
-
-Lead time effect
-
-Market, channel & country influence
-
-Deposit impact
-
-Predictive features & model
-
-Outlier filtering
-
-✔ 2. ADR & Revenue Analysis
-
-ADR by hotel, country, month, channel
-
-Revenue calculations
-
-High-value customer identification
-
-Performance benchmarking
-
-✔ 3. Customer Segmentation
-
-Rule-based (family size, stay length, ADR tiers)
-
-K-Means clustering
-
-Cluster profiling
-
-✔ 4. Distribution & Agent Analysis
-
-Booking share
-
-ADR & revenue by channel
-
-Agent contribution analysis
-
-✔ 5. Country-Wise Performance
-
-Booking count
-
-Cancellation rate
-
-ADR ranking
-
-Revenue ranking
-
-Stay duration
 
 ---
 
-# 💡 Business Recommendations
-🔹 1. Optimize Overbooking Strategy
+# Analysis Modules Included
 
-Given a 37% cancellation rate, hotels should:
+1. Cancellation Analysis
 
-Apply higher overbooking buffers for City Hotels
+Lead time, deposit status, distribution channel, country, booking history, and model-based predictors.
 
-Use cancellation prediction scores to guide overbooking
+2. ADR & Revenue Analysis
 
-🔹 2. Strengthen Direct Booking Incentives
+ADR trends by hotel type, country, channel, and customer segment.
+Revenue estimation using nights stayed.
 
-Direct bookings have:
+3. Customer Segmentation
+
+Rule-based segmentation and K-Means clustering with profiling.
+
+4. Distribution Channel & Agent Performance
+
+Booking volume, cancellation characteristics, ADR contribution, revenue share.
+
+5. Country-Wise Analysis
+
+Booking count, cancellation rate, ADR, revenue, and stay duration by country.
+
+
+---
+
+# Business Recommendations
+
+### 1. Improve Overbooking Strategy
+
+High cancellation rates justify controlled overbooking, especially in City Hotels.
+Prediction-based overbooking can minimize lost revenue.
+
+### 2. Strengthen Direct Booking Programs
+
+Direct bookings deliver:
 
 Lower cancellations
 
-Lower commissions
+Lower acquisition cost
 
-Higher lifetime value
+Higher guest lifetime value
+Promote loyalty points, flexible benefits, and targeted offers.
 
-Offer:
 
-Loyalty points
+### 3. Dynamic Pricing by Customer Segment
 
-Early check-in
+High-value planners → premium packages
 
-Free room upgrades
+Families → bundled offerings
 
-🔹 3. Dynamic Pricing by Segment
+Last-minute travelers → tactical pricing
 
-High-value planners (Cluster 1) → premium packages
 
-Families (Cluster 2) → bundle deals (parking, meals)
+### 4. Focus Marketing on High-Value Countries
 
-Last-minute travelers (Cluster 0) → targeted discounts
+Countries with high ADR and revenue potential should be prioritized.
 
-🔹 4. Market Focus on High-Value Countries
+### 5. Monitor Agent & OTA Performance
 
-Countries with higher ADR & revenue should be targeted with tailored ad campaigns.
+Analyze agent-level contribution to revenue, cancellations, and profitability.
+Negotiate better terms for low-performing, high-cancellation channels.
 
-🔹 5. Agent & OTA Monitoring
-
-Identify top-performing agents (high revenue, low cancellations).
-Re-negotiate commissions with low-value/high-cancellation agents.
 
 ---
 
-# 📞 Contact
+# Contact
 
-For collaboration, improvements, or reporting support
 Author: Tanmay
-
 Email: panttanmay20@gmail.com
+LinkedIn: tanmaypant
 
-LinkedIn: [tanmaypant](https://www.linkedin.com/in/tanmay-pant-4916102a9)
 
 ---
 
-# 🏁 Conclusion
+# Conclusion
 
-This project demonstrates how raw hotel booking data can be transformed into meaningful insights using data analytics and machine learning.
-It supports better decisions in:
+This project demonstrates how hotel booking data can be transformed into useful insights that support:
 
 Revenue management
 
-Marketing
-
-Customer personalization
-
-Channel optimization
-
 Operational planning
 
-✨ Feel free to fork, star ⭐, or contribute to this repository!
+Customer segmentation
+
+Marketing strategy
+
+Cancellation risk reduction
+
+
+Feel free to fork, star ⭐, or open an issue for improvements.
+
+
+---
