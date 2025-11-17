@@ -236,12 +236,11 @@ The Insight: Bookings with 4–5 requests show less than an 11% cancellation rat
 
 Actionable Step: Implement a smoother, more proactive flow in our direct booking process to encourage guests to add preferences, serving as a soft-commitment mechanism to reduce overall cancellation risk.
 
+
 ---
 
 
 # Contact
-
-Author: Tanmay
 
 Email: [panttanmay200@gmail.com](mailto:panttanmay200@gmail.com)
 
