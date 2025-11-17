@@ -45,6 +45,7 @@ The dataset contains 36 columns and hundreds of thousands of bookings, covering:
 📄 Reservation status
 
 💳 Deposit & payment behavior
+
 ---
 
 From this dataset, several new features were engineered:
@@ -171,6 +172,7 @@ ADR ranking
 Revenue ranking
 
 Stay duration
+
 ---
 
 # 🛠️ Tech Stack
@@ -180,6 +182,7 @@ Matplotlib, Seaborn	Visualization
 Scikit-Learn	Clustering & predictive modeling
 Jupyter Notebook	Analysis & reports
 GitHub	Version control & documentation
+
 ---
 # 📌 How to Run the Project
 1️⃣ Clone the repository
@@ -191,6 +194,7 @@ pip install -r requirements.txt
 
 3️⃣ Run the Jupyter Notebook
 jupyter notebook
+
 ---
 # 💡 Business Recommendations
 🔹 1. Optimize Overbooking Strategy
@@ -247,6 +251,7 @@ ADR comparison
 Country-wise booking histogram
 
 Customer clusters
+
 ---
 
 # 📞 Contact
@@ -255,6 +260,7 @@ For collaboration, improvements, or reporting support:
 Author: Tanmay
 Email: panttanmay20@gmail.com
 GitHub: tanmaypant
+
 ---
 
 # 🏁 Conclusion
