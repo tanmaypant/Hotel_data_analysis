@@ -23,13 +23,11 @@ Using Python-based exploratory data analysis (EDA), clustering, and performance 
 ---
 # 🛠️ Tech Stack
 
-<br>Tool	Purpose
-
-Python (Pandas, NumPy)	Data manipulation & preprocessing
-Matplotlib, Seaborn	Visualizations & plots
-Scikit-Learn	Clustering & predictive modeling
-Jupyter Notebook	Analysis & interactive exploration
-GitHub	Version control & documentation
+- **Python (Pandas, NumPy)** — Data manipulation & preprocessing  
+- **Matplotlib, Seaborn** — Visualization  
+- **Scikit-Learn** — Machine learning & clustering  
+- **Jupyter Notebook** — Interactive analysis  
+- **GitHub** — Version control & documentation
 
 ---
 
