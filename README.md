@@ -59,25 +59,25 @@ Through exploratory data analysis (EDA), clustering techniques, and statistical 
 
 The dataset includes 36+ attributes covering:
 
--Hotel type (City / Resort)
+- Hotel type (City / Resort)
 
--Arrival date details
+- Arrival date details
 
--Guest composition
+- Guest composition
 
--ADR (Average Daily Rate)
+- ADR (Average Daily Rate)
 
--Special requests and parking
+- Special requests and parking
 
--Market segment & distribution channel
+- Market segment & distribution channel
 
--Country of origin
+- Country of origin
 
--Cancellation indicators
+- Cancellation indicators
 
--Booking lead time
+- Booking lead time
 
--Deposit status
+- Deposit status
 
 
 ---
