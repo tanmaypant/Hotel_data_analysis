@@ -170,15 +170,17 @@ ADR ranking
 Revenue ranking
 
 Stay duration
+---
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Tool	Purpose
 Python (Pandas, NumPy)	Data manipulation
 Matplotlib, Seaborn	Visualization
 Scikit-Learn	Clustering & predictive modeling
 Jupyter Notebook	Analysis & reports
 GitHub	Version control & documentation
-📌 How to Run the Project
+---
+#📌 How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/Hotel-management-data-analysis.git
 cd Hotel-management-data-analysis
@@ -188,8 +190,8 @@ pip install -r requirements.txt
 
 3️⃣ Run the Jupyter Notebook
 jupyter notebook
-
-💡 Business Recommendations
+---
+# 💡 Business Recommendations
 🔹 1. Optimize Overbooking Strategy
 
 Given a 37% cancellation rate, hotels should:
@@ -233,7 +235,7 @@ Countries with higher ADR & revenue should be targeted with tailored ad campaign
 Identify top-performing agents (high revenue, low cancellations).
 Re-negotiate commissions with low-value/high-cancellation agents.
 
-📈 Visual Examples (Recommended to Add)
+📈 Visual Examples 
 
 You can attach plots from your notebook such as:
 
@@ -244,15 +246,17 @@ ADR comparison
 Country-wise booking histogram
 
 Customer clusters
+---
 
-📞 Contact
+# 📞 Contact
 
 For collaboration, improvements, or reporting support:
 Author: Tanmay
-Email: <your-email>
-GitHub: <your-profile>
+Email: panttanmay20@gmail.com
+GitHub: tanmaypant
+---
 
-🏁 Conclusion
+# 🏁 Conclusion
 
 This project demonstrates how raw hotel booking data can be transformed into meaningful insights using data analytics and machine learning.
 It supports better decisions in:
