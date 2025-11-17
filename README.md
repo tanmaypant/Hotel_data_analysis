@@ -243,7 +243,7 @@ Actionable Step: Implement a smoother, more proactive flow in our direct booking
 
 Author: Tanmay
 Email: panttanmay20@gmail.com
-LinkedIn: tanmaypant
+LinkedIn: [tanmaypant](https://www.linkedin.com/in/tanmay-pant-4916102a9/)
 
 
 ---
