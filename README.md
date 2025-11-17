@@ -180,7 +180,7 @@ Scikit-Learn	Clustering & predictive modeling
 Jupyter Notebook	Analysis & reports
 GitHub	Version control & documentation
 ---
-#📌 How to Run the Project
+# 📌 How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/Hotel-management-data-analysis.git
 cd Hotel-management-data-analysis
