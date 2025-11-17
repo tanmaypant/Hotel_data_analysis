@@ -2,7 +2,7 @@
 Unlocking insights from booking patterns, customer behavior & hotel revenue data
 <p align="center"> <img src="https://img.shields.io/badge/Data%20Science-EDA-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/> </p>
 
--
+--
 
 # 📘 Project Overview
 
