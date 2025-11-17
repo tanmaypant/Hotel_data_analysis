@@ -263,7 +263,7 @@ Author: Tanmay
 
 Email: panttanmay20@gmail.com
 
-LinkedIn: https://www.linkedin.com/in/tanmay-pant-4916102a9
+LinkedIn: [tanmaypant] (https://www.linkedin.com/in/tanmay-pant-4916102a9)
 
 ---
 
