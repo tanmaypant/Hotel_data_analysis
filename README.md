@@ -1,4 +1,4 @@
-# 🌐 Hotel Management Data Analysis
+#  Hotel Management Data Analysis
 Unlocking insights from booking patterns, customer behavior & hotel revenue data
 <p align="center"> <img src="https://img.shields.io/badge/Data%20Science-EDA-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/> <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/> </p>
 
@@ -242,18 +242,6 @@ Countries with higher ADR & revenue should be targeted with tailored ad campaign
 Identify top-performing agents (high revenue, low cancellations).
 Re-negotiate commissions with low-value/high-cancellation agents.
 
-📈 Visual Examples 
-
-You can attach plots from your notebook such as:
-
-Cancellation trend
-
-ADR comparison
-
-Country-wise booking histogram
-
-Customer clusters
-
 ---
 
 # 📞 Contact
@@ -263,7 +251,7 @@ Author: Tanmay
 
 Email: panttanmay20@gmail.com
 
-LinkedIn: [tanmaypant] (https://www.linkedin.com/in/tanmay-pant-4916102a9)
+LinkedIn: [tanmaypant](https://www.linkedin.com/in/tanmay-pant-4916102a9)
 
 ---
 
