@@ -8,7 +8,9 @@ A data-driven study of booking patterns, customer behavior, cancellation risks, 
   <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/>
 </p>
 
+
 ---
+
 
 # Project Overview
 
@@ -27,7 +29,9 @@ Data-backed business recommendations
 
 Through exploratory data analysis (EDA), clustering techniques, and statistical profiling, this study offers actionable insights to help hotels improve revenue, reduce cancellations, and optimize operational strategy.
 
+
 ---
+
 
 # Tech Stack
 
@@ -41,7 +45,9 @@ Through exploratory data analysis (EDA), clustering techniques, and statistical 
 
 -GitHub — Version control and documentation
 
+
 ---
+
 
 # Dataset Overview
 
@@ -80,7 +86,9 @@ customer_group (Solo / Couple / Family)
 
 value_segment (Low / Mid / High ADR)
 
+
 ---
+
 
 # Key Findings
 
@@ -176,6 +184,7 @@ Booking count, cancellation rate, ADR, revenue, and stay duration by country.
 
 ---
 
+
 # Business Recommendations
 
 ### 1. Improve Overbooking Strategy
@@ -216,6 +225,7 @@ Negotiate better terms for low-performing, high-cancellation channels.
 
 ---
 
+
 # Contact
 
 Author: Tanmay
@@ -224,6 +234,7 @@ LinkedIn: tanmaypant
 
 
 ---
+
 
 # Conclusion
 
