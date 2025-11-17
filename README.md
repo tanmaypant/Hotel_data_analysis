@@ -1,4 +1,10 @@
-<h1 align="center">Hotel Management Data Analysis</h1>
+<div align="center">
+
+# **Hotel Management Data Analysis**
+
+### Comprehensive Booking, Revenue & Customer Insights
+
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Data%20Analytics-EDA-blue?style=for-the-badge"/>
