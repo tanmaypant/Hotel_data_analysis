@@ -1,8 +1,4 @@
-<div align="center">
-
 # Hotel Management Data Analysis
-
-</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Data%20Analytics-EDA-blue?style=for-the-badge"/>
