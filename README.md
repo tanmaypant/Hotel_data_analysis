@@ -249,21 +249,6 @@ LinkedIn: tanmaypant
 ---
 
 
-# Conclusion
-
-This project demonstrates how hotel booking data can be transformed into useful insights that support:
-
-Revenue management
-
-Operational planning
-
-Customer segmentation
-
-Marketing strategy
-
-Cancellation risk reduction
-
-
 Feel free to fork, star ⭐, or open an issue for improvements.
 
 
