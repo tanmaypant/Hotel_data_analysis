@@ -258,9 +258,11 @@ Customer clusters
 
 # 📞 Contact
 
-For collaboration, improvements, or reporting support:
+For collaboration, improvements, or reporting support
 Author: Tanmay
+
 Email: panttanmay20@gmail.com
+
 GitHub: tanmaypant
 
 ---
