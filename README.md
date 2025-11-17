@@ -59,38 +59,16 @@ Through exploratory data analysis (EDA), clustering techniques, and statistical 
 
 The dataset includes 36+ attributes covering:
 
-Hotel type (City / Resort)
-
-Arrival date details
-
-Guest composition
-
-ADR (Average Daily Rate)
-
-Special requests and parking
-
-Market segment & distribution channel
-
-Country of origin
-
-Cancellation indicators
-
-Booking lead time
-
-Deposit status
-
-
-Additional engineered features include:
-
-total_nights = weekday_nights + weekend_nights
-
-revenue = adr × total_nights
-
-family_size = adults + children + babies
-
-customer_group (Solo / Couple / Family)
-
-value_segment (Low / Mid / High ADR)
+-Hotel type (City / Resort)
+-Arrival date details
+-Guest composition
+-ADR (Average Daily Rate)
+-Special requests and parking
+-Market segment & distribution channel
+-Country of origin
+-Cancellation indicators
+-Booking lead time
+-Deposit status
 
 
 ---
