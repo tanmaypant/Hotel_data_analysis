@@ -2,8 +2,6 @@
 
 # **Hotel Management Data Analysis**
 
-### Comprehensive Booking, Revenue & Customer Insights
-
 </div>
 
 <p align="center">
