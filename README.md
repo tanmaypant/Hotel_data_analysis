@@ -45,6 +45,7 @@ The dataset contains 36 columns and hundreds of thousands of bookings, covering:
 📄 Reservation status
 
 💳 Deposit & payment behavior
+---
 
 From this dataset, several new features were engineered:
 
