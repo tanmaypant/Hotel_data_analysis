@@ -13,15 +13,15 @@ A data-driven study of booking patterns, customer behavior, cancellation risks, 
 
 This project provides a complete analysis of hotel booking data with the goal of uncovering:
 
-Cancellation patterns and risk factors
+- Cancellation patterns and risk factors
 
-ADR (Average Daily Rate) and revenue insights
+- ADR (Average Daily Rate) and revenue insights
 
-Customer segmentation
+- Customer segmentation
 
-Market, country, and distribution channel behavior
+- Market, country, and distribution channel behavior
 
-Data-backed business recommendations
+- Data-backed business recommendations
 
 
 Through exploratory data analysis (EDA), clustering techniques, and statistical profiling, this study offers actionable insights to help hotels improve revenue, reduce cancellations, and optimize operational strategy.
