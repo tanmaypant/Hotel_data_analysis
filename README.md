@@ -21,6 +21,17 @@ This project performs an end-to-end data analysis on hotel booking data to uncov
 Using Python-based exploratory data analysis (EDA), clustering, and performance metrics, this project gives hotels actionable intelligence to improve revenue, reduce cancellations, and optimize distribution strategies.
  
 ---
+# 🛠️ Tech Stack
+
+<br>Tool	Purpose
+
+Python (Pandas, NumPy)	Data manipulation & preprocessing
+Matplotlib, Seaborn	Visualizations & plots
+Scikit-Learn	Clustering & predictive modeling
+Jupyter Notebook	Analysis & interactive exploration
+GitHub	Version control & documentation
+
+---
 
 # 📁 Dataset Overview
 
@@ -175,17 +186,6 @@ Stay duration
 
 ---
 
-# 🛠️ Tech Stack
-
-<br>Tool	Purpose
-
-Python (Pandas, NumPy)	Data manipulation & preprocessing
-Matplotlib, Seaborn	Visualizations & plots
-Scikit-Learn	Clustering & predictive modeling
-Jupyter Notebook	Analysis & interactive exploration
-GitHub	Version control & documentation
-
----
 # 📌 How to Run the Project
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/Hotel-management-data-analysis.git
