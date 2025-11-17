@@ -1,6 +1,6 @@
 <div align="center">
 
-# **Hotel Management Data Analysis**
+# Hotel Management Data Analysis**
 
 </div>
 
