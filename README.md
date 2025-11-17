@@ -176,11 +176,13 @@ Stay duration
 ---
 
 # 🛠️ Tech Stack
-Tool	Purpose
-Python (Pandas, NumPy)	Data manipulation
-Matplotlib, Seaborn	Visualization
+
+<br>Tool	Purpose
+
+Python (Pandas, NumPy)	Data manipulation & preprocessing
+Matplotlib, Seaborn	Visualizations & plots
 Scikit-Learn	Clustering & predictive modeling
-Jupyter Notebook	Analysis & reports
+Jupyter Notebook	Analysis & interactive exploration
 GitHub	Version control & documentation
 
 ---
