@@ -1,4 +1,4 @@
-# Hotel Management Data Analysis
+# **Hotel Management Data Analysis**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Data%20Analytics-EDA-blue?style=for-the-badge"/>
