@@ -41,15 +41,15 @@ Through exploratory data analysis (EDA), clustering techniques, and statistical 
 
 # Tech Stack
 
--Python (Pandas, NumPy) — Data preparation and manipulation
+- Python (Pandas, NumPy) — Data preparation and manipulation
 
--Matplotlib, Seaborn — Visualization and trend analysis
+- Matplotlib, Seaborn — Visualization and trend analysis
 
--Scikit-Learn — Machine learning & clustering
+- Scikit-Learn — Machine learning & clustering
 
--Jupyter Notebook — Interactive development environment
+- Jupyter Notebook — Interactive development environment
 
--GitHub — Version control and documentation
+- GitHub — Version control and documentation
 
 
 ---
