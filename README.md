@@ -7,6 +7,7 @@ A data-driven study of booking patterns, customer behavior, cancellation risks, 
   <img src="https://img.shields.io/badge/Hotel%20Analytics-Revenue%20%26%20Cancellations-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Customer%20Segmentation-ML-green?style=for-the-badge"/>
 </p>
+
 ---
 
 # Project Overview
